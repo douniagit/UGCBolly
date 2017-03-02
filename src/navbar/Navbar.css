@@ -1,0 +1,104 @@
+
+/*-----------------NavBar------------------*/
+.navbar {
+	width: 100%;
+	height: 60px;
+	opacity: 0.6;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.wrapper{
+	width:23%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	margin-right:70px;
+}
+.logo{
+	width:20%;
+	margin: -50px 0 0 0;
+}
+.logoT{
+	width:100%;
+	margin-top:150px;
+	margin-left:-50px;
+	transform:rotate(-10deg);
+}
+
+.menu{
+	width:100%;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+
+/*--------------------background-------------*/
+.back{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	color:black;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/c9/77/c9/c977c978de3bae0ccaa3b4951d46f829.jpg');
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	transition: 3s;
+	z-index: -100;
+	width: 100%;
+	height: 535px;
+}
+
+/*-----------------bande etape--------------*/
+.bande{
+	background-color: #99F9E4;
+	width:100%;
+	height:60px;
+}
+.steps{
+	display:flex;
+	align-items:center;
+}
+.steps ul{
+	padding-left:0;
+	padding-top:22px;
+	margin:0;
+	width:100%;
+	color:white;
+	font-family:'Roboto', sans-serif;
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	background-color: orange;
+	justify-content:space-around;
+}
+.steps ul li{
+	display:inline-block;
+	text-decoration:none;
+}
+
+.steps ul li{
+	position:relative;
+	transition:0.15s;
+}
+
+.steps ul li:hover{
+	color:#CB960F;
+}
+
+a{
+	transition:0.15s;
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	color:#CB960F;
+}
