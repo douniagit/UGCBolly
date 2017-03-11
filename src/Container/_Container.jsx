@@ -1,13 +1,14 @@
 import React from 'react';
 import Grid from './../Grid/Grid.jsx';
 import Grid2 from './../Grid2/Grid2.jsx';
-import Grid3 from './../Grid3/Grid3.jsx';
+//import Grid3 from './../Grid3/Grid3.jsx';
 
 
 const styles = {
   defaultContainer : {
     display:"flex",
-    justifyContent:"flex-end",
+    flexDirection:"row",
+    justifyContent:"center",
     border:"2px solid red",
     margin: 'auto',
     width:'80%'
@@ -27,7 +28,7 @@ export default class Container extends React.Component {
           {this.props.children}
         <Grid />
         <Grid2 />
-        <Grid3 />
+        {/*<Grid3 />*/}
         </div>
         
       </div>

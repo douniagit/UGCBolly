@@ -16,11 +16,12 @@ class Header extends React.Component {
 			<div className="bande">
 				<div className="steps">
 					<ul>
-						<li>FILMS</li>
-						<li>CARTES</li>
-						<li>FIDELITE</li>
-						<li>BOLLY SONGS</li>
-						<li>BOLLY MAG</li>
+						<li><Link to="/">HOME</Link></li>
+						<li><Link to="/films">FILMS</Link></li>
+						<li><Link to="/cartes">CARTES</Link></li>
+						<li><Link to="/fidelite">FIDELITE</Link></li>
+						<li><Link to="/songs">BOLLY SONGS</Link></li>
+						<li><Link to="/mag">BOLLY MAG</Link></li>
 					</ul>
 				</div>
 				 <input type="text" name="search" placeholder="Search.."/>
