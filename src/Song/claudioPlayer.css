@@ -1,0 +1,57 @@
+
+.player-container{
+	
+}
+.player-cover{
+	width:580px;
+	height:350px;
+}
+.artist-info{
+	width:400px;
+	height:100px;
+	border:2px solid red;
+}
+.artist-name{
+	color:pink;
+}
+
+.artist-song-name{
+	color:blue;
+}
+.player-progress-container{
+	border:2px solid black;
+
+}
+.player-progress-value{
+	border:2px solid green;
+}
+.player-options{
+	border:2px solid red;
+	width:50%;
+}
+.player-buttons{
+	border:2px solid yellow;
+}
+.player-btn{
+
+}
+/*.player-btn i .fa {
+	color:red;
+}*/
+.player-btn i .fa-play {
+	border:2px solid blue;
+	color:red;
+}
+.fa-pause{
+	color:red;
+} 
+/*
+.fa-volume 
+.fa-volume-off 
+.fa-forward 
+.no-height - A helper class for songs without covers
+.fa-backward 
+.fa-repeat 
+.fa-random
+.player-btn.big.medium.small.active.volume:disabled
+.player-controls*/
