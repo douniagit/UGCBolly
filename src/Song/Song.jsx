@@ -3,6 +3,8 @@ import Navbar from "../navbar/Navbar.jsx";
 import Header from "../Header/Header.jsx";
 import Footer from "../footer/Footer.jsx";
 import CLAudioPlayer from 'react-cl-audio-player';
+//import Bande from "../Bande/Bande.jsx";
+
 import './claudioPlayer.css';
 
 const songs = [
@@ -88,6 +90,7 @@ class Song extends React.Component {
         
         <Navbar />
         <Header />
+        {/*} <Bande />*/}
        	<CLAudioPlayer songs={songs} controls autoplay/>
         <Footer />
         
