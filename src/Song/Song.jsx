@@ -7,60 +7,78 @@ import './claudioPlayer.css';
 
 const songs = [
   {
-    url: 'http://tegos.kz/new/mp3_full/Redfoo_-_New_Thang.mp3',
-    cover: 'http://www.nossoarmario.com/blog/wp-content/uploads/2015/01/redfoo.jpg',
+    url: ' SurajHuaMaddham.mp3',
+    cover: 'http://static.filmfare.com/content/2015/Dec/thumb_1441285805_600x450_1450089705.jpg',
     artist: {
-      name: 'Redfoo',
-      song: 'New Thang'
+      name: 'KABHI KHUSHI KABHIE GHAM',
+      song: 'Suraj Hua Maddham'
     }
   },
   {
-    url: 'http://a.tumblr.com/tumblr_lpoc6cHNDP1r0jthjo1.mp3',
-    cover: 'http://www.thailandballoonfestival.com/tibf2013/images/HugoSlider1.jpg',
+    url: 'CholiKePeecheKyaHai.mp3',
+    cover: 'http://i10.dainikbhaskar.com/thumbnail/655x588/web2images/www.dailybhaskar.com/2016/07/10/khalnayak_cover_146813959.jpg',
     artist: {
-      name: 'Hugo',
-      song: '99 Problems'
+      name: 'KHALNAYAK',
+      song: 'Choli Ke Peeche Kya Hai'
     }
   },
   {
-    url: 'http://claymore.france.free.fr/momo/summer love.mp3',
-    cover: 'http://myuvn.com/wp-content/uploads/2015/07/justin-timberlake-pusher-love-girl.jpg',
+    url: 'Criminal.mp3',
+    cover: 'https://i.ytimg.com/vi/UO3SdeZm-5M/maxresdefault.jpg',
     artist: {
-      name: 'Justin Timberlake',
-      song: 'Summer Love'
+      name: 'RA.ONE',
+      song: 'Criminal'
     }
   },
   {
-    url: 'http://a.tumblr.com/tumblr_mlyactVSyX1qejx3lo1.mp3',
-    cover: 'http://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2015/06/daft-punk.jpg',
+    url: 'DolaReDola.mp3',
+    cover: 'http://merylia.m.e.pic.centerblog.net/wwzvc59w.jpg',
     artist: {
-      name: 'Daft Punk',
-      song: 'Get Lucky'
+      name: 'DEVDAS',
+      song: 'Dola Re Dola'
     }
   },
   {
-    url: 'http://a.tumblr.com/tumblr_lxe7hpIUPA1r3ne4ro1.mp3',
+    url: 'KalHoNaaHo.mp3',
+    cover: 'https://bollyspice.com/wp-content/uploads/2013/11/13nov_10thAnniversaryKHNH07.jpg',
     artist: {
-      name: 'Michael Buble',
-      song: 'Feeling Good'
+      name: 'KAL HO NAA HO',
+      song: 'Kal Ho Naa Ho'
     }
   },
   {
-    url: 'http://dl.tak3da.com/download/1394/03/The Weeknd - Can t Feel My Face [320].mp3',
-    cover: 'http://www.clickgratis.com.br/fotos-imagens/the-weekend/aHR0cDovL3d3dy5iaWxsYm9hcmQuY29tL2ZpbGVzL3N0eWxlcy9wcm9tb182NTAvcHVibGljL21lZGlhL3RoZS13ZWVrZW5kLXRoZS1oaWxscy12aWRlby1iaWxsYm9hcmQtNjUwLmpwZw==.jpg',
+    url: 'KaliyonKaChaman.mp3',
+    cover: 'http://ahdwallpaper.com/wp-content/uploads/2015/04/Meghna-Naidu-Cuite.jpg',
     artist: {
-      name: 'The Weekend',
-      song: 'Can\'t Fell My Face'
+      name: 'MEGHNA NAIDU',
+      song: 'Kaliyon Ka Chaman'
     }
   },
   {
-    url: 'http://midnightoilco.net/sitebuildercontent/sitebuilderfiles/metallicafuel.mp3',
-    cover: 'http://imagens.ailhadometal.com/2015/03/Metallica3.png',
+    url: 'RadhaKaiseNaJale.mp3',
+    cover: 'http://www.voicesofyouth.org/assets/556f5d6294687-full.jpeg',
     artist: {
-      name: 'Metallica',
-      song: 'Fuel'
+      name: 'LAGAAN',
+      song: 'Radha Kai se Na jale'
+      }
+    },
+    {
+    url: 'RoshniSe.mp3',
+    cover: 'http://www.fotoguru.co/upload/images/2017/2/movie-poster-hd-wallpapers-ashoka-the-great-2001.jpg',
+    artist: {
+      name: 'ASHOKA',
+      song: 'Roshni Se'
+    }
+  },
+  {
+    url: 'TumseMilkeDilkaJoHaal.mp3',
+    cover: 'https://s-media-cache-ak0.pinimg.com/originals/e4/93/6c/e4936c2aba5947720e0df4fe288d304f.jpg',
+    artist: {
+      name: 'ME HOON NA',
+      song: 'Tumse Milke Dil Ka Jo Haal'
     }
   }
+  
 ];
 
 class Song extends React.Component {

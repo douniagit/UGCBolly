@@ -5,6 +5,7 @@
 .player-cover{
 	width:580px;
 	height:350px;
+	background-size: cover;
 }
 .artist-info{
 	width:400px;
