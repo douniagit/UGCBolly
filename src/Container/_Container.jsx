@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from './../Grid/Grid.jsx';
 import Grid2 from './../Grid2/Grid2.jsx';
-//import Grid3 from './../Grid3/Grid3.jsx';
 
 
 const styles = {
@@ -11,6 +10,7 @@ const styles = {
     justifyContent:"center",
     border:"2px solid red",
     margin: 'auto',
+    marginTop:'50px',
     width:'80%'
   }
 }
@@ -28,7 +28,6 @@ export default class Container extends React.Component {
           {this.props.children}
         <Grid />
         <Grid2 />
-        {/*<Grid3 />*/}
         </div>
         
       </div>
